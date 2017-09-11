@@ -1,0 +1,43 @@
+.navbar         { overflow: hidden; }
+.navbar         { background-color: lavender; }
+.navbar         { position: fixed; }
+.navbar         { bottom: 0; }
+.navbar         { width: 100%; }
+
+
+
+html, body{ margin-bottom: 0; 
+            padding:0;
+            height:100%; }
+section {   position: relative;
+            border: 1px solid #200;
+            padding-top: 22px;
+            background: #500; }
+section.positioned {  position: absolute;
+            top:100px;
+            left:100px;
+            width:800px;}
+.container {overflow-y: auto;
+            height: 70%; }
+table {     border-spacing: 0;
+            width:100%; }
+td + td {   border-left:1px solid #eee; }
+td, th {    border-bottom:1px solid #eee;
+            color: #300;
+            padding: 2px 20px; }
+th {        height: 0;
+            line-height: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            color: transparent;
+            border: none;
+            white-space: nowrap; }
+th div{     position: absolute;
+            background: transparent;
+            color: #fff;
+            padding: 2px 20px;
+            top: 0;
+            margin-left: -25px;
+            line-height: normal;
+            border-left: 1px solid #800; }
+th:first-child div{  border: none; }
