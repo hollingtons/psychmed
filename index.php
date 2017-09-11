@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>psychiatry</title>
+<title>Psychiatry</title>
 <link rel="stylesheet" href="x/css.css">
 
 
